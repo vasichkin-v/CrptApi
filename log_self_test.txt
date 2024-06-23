@@ -1,0 +1,307 @@
+requestCounter: 1
+Thread-1 creates a document.
+requestCounter: 2
+Thread-6 creates a document.
+requestCounter: 3
+Thread-5 creates a document.
+requestCounter: 4
+Thread-4 creates a document.
+requestCounter: 5
+Thread-3 creates a document.
+Thread-2 wait!
+Reset request counter!
+requestCounter: 1
+Thread-2 creates a document.
+=============================
+{
+  "args": {}, 
+  "data": "{\n  \"description\" : {\n    \"participantInn\" : \"string\"\n  },\n  \"doc_id\" : \"string\",\n  \"doc_status\" : \"string\",\n  \"doc_type\" : \"LP_INTRODUCE_GOODS\",\n  \"importRequest\" : true,\n  \"owner_inn\" : \"string\",\n  \"participant_inn\" : \"string\",\n  \"producer_inn\" : \"string\",\n  \"production_date\" : \"2024-06-23\",\n  \"production_type\" : \"string\",\n  \"products\" : [ {\n    \"certificate_document\" : \"string\",\n    \"certificate_document_date\" : \"2024-06-23\",\n    \"certificate_document_number\" : \"string\",\n    \"owner_inn\" : \"string\",\n    \"producer_inn\" : \"string\",\n    \"production_date\" : \"2024-06-23\",\n    \"tnved_code\" : \"string\",\n    \"uit_code\" : \"string\",\n    \"uitu_code\" : \"string\"\n  } ],\n  \"reg_date\" : \"2024-06-23\",\n  \"reg_number\" : \"string\"\n}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "722", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "Signature": "some_signature", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.9)", 
+    "X-Amzn-Trace-Id": "Root=1-6678ae27-33df8be52a15ef6f210debcf"
+  }, 
+  "json": {
+    "description": {
+      "participantInn": "string"
+    }, 
+    "doc_id": "string", 
+    "doc_status": "string", 
+    "doc_type": "LP_INTRODUCE_GOODS", 
+    "importRequest": true, 
+    "owner_inn": "string", 
+    "participant_inn": "string", 
+    "producer_inn": "string", 
+    "production_date": "2024-06-23", 
+    "production_type": "string", 
+    "products": [
+      {
+        "certificate_document": "string", 
+        "certificate_document_date": "2024-06-23", 
+        "certificate_document_number": "string", 
+        "owner_inn": "string", 
+        "producer_inn": "string", 
+        "production_date": "2024-06-23", 
+        "tnved_code": "string", 
+        "uit_code": "string", 
+        "uitu_code": "string"
+      }
+    ], 
+    "reg_date": "2024-06-23", 
+    "reg_number": "string"
+  }, 
+  "origin": "109.248.253.215", 
+  "url": "https://httpbin.org/post"
+}
+
+=============================
+{
+  "args": {}, 
+  "data": "{\n  \"description\" : {\n    \"participantInn\" : \"string\"\n  },\n  \"doc_id\" : \"string\",\n  \"doc_status\" : \"string\",\n  \"doc_type\" : \"LP_INTRODUCE_GOODS\",\n  \"importRequest\" : true,\n  \"owner_inn\" : \"string\",\n  \"participant_inn\" : \"string\",\n  \"producer_inn\" : \"string\",\n  \"production_date\" : \"2024-06-23\",\n  \"production_type\" : \"string\",\n  \"products\" : [ {\n    \"certificate_document\" : \"string\",\n    \"certificate_document_date\" : \"2024-06-23\",\n    \"certificate_document_number\" : \"string\",\n    \"owner_inn\" : \"string\",\n    \"producer_inn\" : \"string\",\n    \"production_date\" : \"2024-06-23\",\n    \"tnved_code\" : \"string\",\n    \"uit_code\" : \"string\",\n    \"uitu_code\" : \"string\"\n  } ],\n  \"reg_date\" : \"2024-06-23\",\n  \"reg_number\" : \"string\"\n}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "722", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "Signature": "some_signature", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.9)", 
+    "X-Amzn-Trace-Id": "Root=1-6678ae28-322ec8915fe4011107d63455"
+  }, 
+  "json": {
+    "description": {
+      "participantInn": "string"
+    }, 
+    "doc_id": "string", 
+    "doc_status": "string", 
+    "doc_type": "LP_INTRODUCE_GOODS", 
+    "importRequest": true, 
+    "owner_inn": "string", 
+    "participant_inn": "string", 
+    "producer_inn": "string", 
+    "production_date": "2024-06-23", 
+    "production_type": "string", 
+    "products": [
+      {
+        "certificate_document": "string", 
+        "certificate_document_date": "2024-06-23", 
+        "certificate_document_number": "string", 
+        "owner_inn": "string", 
+        "producer_inn": "string", 
+        "production_date": "2024-06-23", 
+        "tnved_code": "string", 
+        "uit_code": "string", 
+        "uitu_code": "string"
+      }
+    ], 
+    "reg_date": "2024-06-23", 
+    "reg_number": "string"
+  }, 
+  "origin": "109.248.253.215", 
+  "url": "https://httpbin.org/post"
+}
+
+=============================
+{
+  "args": {}, 
+  "data": "{\n  \"description\" : {\n    \"participantInn\" : \"string\"\n  },\n  \"doc_id\" : \"string\",\n  \"doc_status\" : \"string\",\n  \"doc_type\" : \"LP_INTRODUCE_GOODS\",\n  \"importRequest\" : true,\n  \"owner_inn\" : \"string\",\n  \"participant_inn\" : \"string\",\n  \"producer_inn\" : \"string\",\n  \"production_date\" : \"2024-06-23\",\n  \"production_type\" : \"string\",\n  \"products\" : [ {\n    \"certificate_document\" : \"string\",\n    \"certificate_document_date\" : \"2024-06-23\",\n    \"certificate_document_number\" : \"string\",\n    \"owner_inn\" : \"string\",\n    \"producer_inn\" : \"string\",\n    \"production_date\" : \"2024-06-23\",\n    \"tnved_code\" : \"string\",\n    \"uit_code\" : \"string\",\n    \"uitu_code\" : \"string\"\n  } ],\n  \"reg_date\" : \"2024-06-23\",\n  \"reg_number\" : \"string\"\n}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "722", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "Signature": "some_signature", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.9)", 
+    "X-Amzn-Trace-Id": "Root=1-6678ae27-48090fe36afd453f1aa5329f"
+  }, 
+  "json": {
+    "description": {
+      "participantInn": "string"
+    }, 
+    "doc_id": "string", 
+    "doc_status": "string", 
+    "doc_type": "LP_INTRODUCE_GOODS", 
+    "importRequest": true, 
+    "owner_inn": "string", 
+    "participant_inn": "string", 
+    "producer_inn": "string", 
+    "production_date": "2024-06-23", 
+    "production_type": "string", 
+    "products": [
+      {
+        "certificate_document": "string", 
+        "certificate_document_date": "2024-06-23", 
+        "certificate_document_number": "string", 
+        "owner_inn": "string", 
+        "producer_inn": "string", 
+        "production_date": "2024-06-23", 
+        "tnved_code": "string", 
+        "uit_code": "string", 
+        "uitu_code": "string"
+      }
+    ], 
+    "reg_date": "2024-06-23", 
+    "reg_number": "string"
+  }, 
+  "origin": "109.248.253.215", 
+  "url": "https://httpbin.org/post"
+}
+
+=============================
+{
+  "args": {}, 
+  "data": "{\n  \"description\" : {\n    \"participantInn\" : \"string\"\n  },\n  \"doc_id\" : \"string\",\n  \"doc_status\" : \"string\",\n  \"doc_type\" : \"LP_INTRODUCE_GOODS\",\n  \"importRequest\" : true,\n  \"owner_inn\" : \"string\",\n  \"participant_inn\" : \"string\",\n  \"producer_inn\" : \"string\",\n  \"production_date\" : \"2024-06-23\",\n  \"production_type\" : \"string\",\n  \"products\" : [ {\n    \"certificate_document\" : \"string\",\n    \"certificate_document_date\" : \"2024-06-23\",\n    \"certificate_document_number\" : \"string\",\n    \"owner_inn\" : \"string\",\n    \"producer_inn\" : \"string\",\n    \"production_date\" : \"2024-06-23\",\n    \"tnved_code\" : \"string\",\n    \"uit_code\" : \"string\",\n    \"uitu_code\" : \"string\"\n  } ],\n  \"reg_date\" : \"2024-06-23\",\n  \"reg_number\" : \"string\"\n}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "722", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "Signature": "some_signature", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.9)", 
+    "X-Amzn-Trace-Id": "Root=1-6678ae28-3f01a099271b6c38709f2efd"
+  }, 
+  "json": {
+    "description": {
+      "participantInn": "string"
+    }, 
+    "doc_id": "string", 
+    "doc_status": "string", 
+    "doc_type": "LP_INTRODUCE_GOODS", 
+    "importRequest": true, 
+    "owner_inn": "string", 
+    "participant_inn": "string", 
+    "producer_inn": "string", 
+    "production_date": "2024-06-23", 
+    "production_type": "string", 
+    "products": [
+      {
+        "certificate_document": "string", 
+        "certificate_document_date": "2024-06-23", 
+        "certificate_document_number": "string", 
+        "owner_inn": "string", 
+        "producer_inn": "string", 
+        "production_date": "2024-06-23", 
+        "tnved_code": "string", 
+        "uit_code": "string", 
+        "uitu_code": "string"
+      }
+    ], 
+    "reg_date": "2024-06-23", 
+    "reg_number": "string"
+  }, 
+  "origin": "109.248.253.215", 
+  "url": "https://httpbin.org/post"
+}
+
+=============================
+{
+  "args": {}, 
+  "data": "{\n  \"description\" : {\n    \"participantInn\" : \"string\"\n  },\n  \"doc_id\" : \"string\",\n  \"doc_status\" : \"string\",\n  \"doc_type\" : \"LP_INTRODUCE_GOODS\",\n  \"importRequest\" : true,\n  \"owner_inn\" : \"string\",\n  \"participant_inn\" : \"string\",\n  \"producer_inn\" : \"string\",\n  \"production_date\" : \"2024-06-23\",\n  \"production_type\" : \"string\",\n  \"products\" : [ {\n    \"certificate_document\" : \"string\",\n    \"certificate_document_date\" : \"2024-06-23\",\n    \"certificate_document_number\" : \"string\",\n    \"owner_inn\" : \"string\",\n    \"producer_inn\" : \"string\",\n    \"production_date\" : \"2024-06-23\",\n    \"tnved_code\" : \"string\",\n    \"uit_code\" : \"string\",\n    \"uitu_code\" : \"string\"\n  } ],\n  \"reg_date\" : \"2024-06-23\",\n  \"reg_number\" : \"string\"\n}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "722", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "Signature": "some_signature", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.9)", 
+    "X-Amzn-Trace-Id": "Root=1-6678ae28-1be8737d31a5248644786f56"
+  }, 
+  "json": {
+    "description": {
+      "participantInn": "string"
+    }, 
+    "doc_id": "string", 
+    "doc_status": "string", 
+    "doc_type": "LP_INTRODUCE_GOODS", 
+    "importRequest": true, 
+    "owner_inn": "string", 
+    "participant_inn": "string", 
+    "producer_inn": "string", 
+    "production_date": "2024-06-23", 
+    "production_type": "string", 
+    "products": [
+      {
+        "certificate_document": "string", 
+        "certificate_document_date": "2024-06-23", 
+        "certificate_document_number": "string", 
+        "owner_inn": "string", 
+        "producer_inn": "string", 
+        "production_date": "2024-06-23", 
+        "tnved_code": "string", 
+        "uit_code": "string", 
+        "uitu_code": "string"
+      }
+    ], 
+    "reg_date": "2024-06-23", 
+    "reg_number": "string"
+  }, 
+  "origin": "109.248.253.215", 
+  "url": "https://httpbin.org/post"
+}
+
+Reset request counter!
+=============================
+{
+  "args": {}, 
+  "data": "{\n  \"description\" : {\n    \"participantInn\" : \"string\"\n  },\n  \"doc_id\" : \"string\",\n  \"doc_status\" : \"string\",\n  \"doc_type\" : \"LP_INTRODUCE_GOODS\",\n  \"importRequest\" : true,\n  \"owner_inn\" : \"string\",\n  \"participant_inn\" : \"string\",\n  \"producer_inn\" : \"string\",\n  \"production_date\" : \"2024-06-23\",\n  \"production_type\" : \"string\",\n  \"products\" : [ {\n    \"certificate_document\" : \"string\",\n    \"certificate_document_date\" : \"2024-06-23\",\n    \"certificate_document_number\" : \"string\",\n    \"owner_inn\" : \"string\",\n    \"producer_inn\" : \"string\",\n    \"production_date\" : \"2024-06-23\",\n    \"tnved_code\" : \"string\",\n    \"uit_code\" : \"string\",\n    \"uitu_code\" : \"string\"\n  } ],\n  \"reg_date\" : \"2024-06-23\",\n  \"reg_number\" : \"string\"\n}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "722", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "Signature": "some_signature", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.9)", 
+    "X-Amzn-Trace-Id": "Root=1-6678ae28-71dfb22b6120c8ba2a5b9ad9"
+  }, 
+  "json": {
+    "description": {
+      "participantInn": "string"
+    }, 
+    "doc_id": "string", 
+    "doc_status": "string", 
+    "doc_type": "LP_INTRODUCE_GOODS", 
+    "importRequest": true, 
+    "owner_inn": "string", 
+    "participant_inn": "string", 
+    "producer_inn": "string", 
+    "production_date": "2024-06-23", 
+    "production_type": "string", 
+    "products": [
+      {
+        "certificate_document": "string", 
+        "certificate_document_date": "2024-06-23", 
+        "certificate_document_number": "string", 
+        "owner_inn": "string", 
+        "producer_inn": "string", 
+        "production_date": "2024-06-23", 
+        "tnved_code": "string", 
+        "uit_code": "string", 
+        "uitu_code": "string"
+      }
+    ], 
+    "reg_date": "2024-06-23", 
+    "reg_number": "string"
+  }, 
+  "origin": "109.248.253.215", 
+  "url": "https://httpbin.org/post"
+}
+
+Time duration: 2138 ms.
+Shutdown called.
+
+Process finished with exit code 0
